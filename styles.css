@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  text-shadow: 0.1em 0.1em 0.1em rgba(165, 40, 40, 0.4);
+}
+
+.HeroSection {
+  /* Auto layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20em;
+  /* Background Image */
+  background: url(images/Coffee.jpg);
+  background-size: cover;
+  /* Text */
+  color: rgb(245, 245, 245);
+  text-shadow: 0 0 0.1em;
+  /* Padding/Margins/Border */
+  border-bottom: 0.1em solid #222222;
+}
+
+.ListSection {
+  width: 100%;
+  display: flex;
+}
+
+#UnorderedList,
+#OrderedList,
+#DescriptionList {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* Padding/Margins/Border */
+  padding: 0 2em;
+  border: 0.1em solid #222222;
+}
+
+#UnorderedList {
+  background: #ffe7ca;
+}
+
+#OrderedList {
+  background: #fff1e0;
+}
+
+#DescriptionList {
+  background: #ffe7ca;
+  width: 40%;
+}
